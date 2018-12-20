@@ -19,7 +19,7 @@ def play(mode, symbol):
 		else:
 			human_player = random.choice([-1, 1])
 
-	print("\nWelcome to Tic Tac Toe.")
+	print("\nWelcome to Tic-Tac-Toe.")
 	print("To make a move, enter one of the following two-letter options.\n")
 	print("UL - Upper Left")
 	print("UM - Upper Middle")
@@ -164,7 +164,7 @@ def play(mode, symbol):
 		print("The game is a draw.")
 	else:
 		print("Player " + winner + " wins.")
-	print("Thanks for playing Tic Tac Toe.")
+	print("Thanks for playing Tic-Tac-Toe.")
 
 if __name__ == "__main__":
 	if len(sys.argv) == 1:
